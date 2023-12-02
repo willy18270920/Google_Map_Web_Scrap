@@ -1,0 +1,10 @@
+此為使用Selenium自動化爬取Google Map餐廳評論的爬蟲程式碼
+此程式碼可以爬到餐廳ID、餐廳名字、所有留言、該留言評論星星數
+其中使用一個小技巧，每爬取20家就重新開一次網頁
+以防網路內存超負荷
+此專案執行前我有先去FoodPanda將全台餐點資訊爬取下來
+
+This is a web scraping code using Selenium to automate the extraction of restaurant reviews from Google Maps. 
+The code can retrieve restaurant ID, name, all comments, and the star rating for each comment. 
+A notable technique employed is reopening the webpage every 20 restaurants to prevent network overload and manage memory usage efficiently.
+Before running this project, I crawled information on all the restaurants from FoodPanda across Taiwan.
